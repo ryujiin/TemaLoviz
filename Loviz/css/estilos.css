@@ -1,6 +1,4 @@
-body img{
-	width: 100%;
-}
-.header__site-name{
-	font-size: 0px;
-}
+body{background:url("../images/bg_boxed.jpg") no-repeat fixed top center;}
+body img{width:100%}
+header .header__logo{width:250px}
+#page{background:#fff}
