@@ -27,7 +27,8 @@
             ),
           )); ?>
         </nav>
-      <?php endif; ?>  
+      <?php endif; ?>
+      <div class="clear"></div>
     </div>
     
     <div class="container-fluid">
