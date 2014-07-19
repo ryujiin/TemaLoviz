@@ -31,7 +31,7 @@
       <div class="clear"></div>
     </div>
     
-    <div class="container-fluid">
+    <div class="container-fluid header-main">
       <div class="row">
         <div class="col-sm-4">
 
