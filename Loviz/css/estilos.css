@@ -2,7 +2,8 @@
 body{background:url("../images/bg_boxed.jpg") no-repeat fixed top center;font-family:arial;font-size:16px;}
 body img{width:100%}
 body a{text-decoration:none;color:#666}
-#block-views-shopping-cart-block{float:right;}
+#block-views-shopping-cart-block{float:right;background:#f2f2f2;padding:10px 10px 0 70px;}
+#block-views-shopping-cart-block .block__title{font-size:1.2em}
 #block-views-shopping-cart-block .view-shopping-cart .view-empty .view-header{position:absolute;left:-54px;color:#666;font-size:35px}
 #block-views-shopping-cart-block .view-shopping-cart .view-empty p{position:absolute;left:-32px;bottom:0;}
 #block-views-shopping-cart-block .view-shopping-cart .view-empty p span{background:#f55c59;border-radius:20px;width:25px;display:inline-block;text-align:center;line-height:25px;color:#fff;border:1px solid #fff}
@@ -14,3 +15,4 @@ header .header__region .block{display:inline-block;margin:0}
 #navigation #main-menu .links li a:hover{background:#f55c59;color:#fff;text-decoration:none}
 #navigation #main-menu .links li a.active{background:#f55c59;color:#fff}
 #page{background:#fff}
+h1,h2,h3,h4,h5{font-family:'Roboto Condensed',sans-serif}
