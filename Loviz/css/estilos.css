@@ -14,5 +14,6 @@ header .header__region .block{display:inline-block;margin:0}
 #navigation #main-menu .links li a{font-family:'Roboto Condensed',sans-serif;text-transform:uppercase;padding:20px 17px;display:inline-block;color:#a8a8a8;}
 #navigation #main-menu .links li a:hover{background:#f55c59;color:#fff;text-decoration:none}
 #navigation #main-menu .links li a.active{background:#f55c59;color:#fff}
+#main{padding-top:4em}
 #page{background:#fff}
 h1,h2,h3,h4,h5{font-family:'Roboto Condensed',sans-serif;text-transform:uppercase}
