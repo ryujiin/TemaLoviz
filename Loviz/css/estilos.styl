@@ -25,7 +25,17 @@ body
 		font-family: 'Yanone Kaffeesatz', sans-serif;
 	.view-shopping-cart
 		cursor pointer
-		position relative
+		font-size 0.9em
+		.icono-cart
+			position absolute
+			left: 8px;
+			top: 15px;
+			background: #88c7c5;
+			font-size: 25px;
+			color: #fff;
+			padding: 10px;
+			border-radius: 40px;
+			line-height: 20px;
 		.view-empty
 			p
 				color #999
@@ -38,8 +48,8 @@ body
 				margin 0
 				ul.links
 					position absolute
-					left 30px
-					bottom -35px
+					left 85px
+					bottom -20px
 					a
 						color #fff
 						background rojito
@@ -47,6 +57,8 @@ body
 						border-radius 15px
 						&:hover
 							background-color plomo_oscu
+							text-decoration none
+
 header
 	.header__logo
 		width 250px;
