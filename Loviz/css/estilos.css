@@ -6,6 +6,7 @@ body .clear{clear:both}
 body .content-wrapper{background-color:#e0e0e0;}
 body .content-wrapper .shadow-box{width:1200px;box-shadow:0 0 18px rgba(0,0,0,0.2);background-color:#fff;margin:0 auto}
 body #page{padding:0}
+body p{font-size:.75em}
 body .separador{height:3px;border-bottom:1px dotted #d9d9d9;border-top:1px dotted #d9d9d9;font-size:0}
 #block-views-exp-display-products-page{border:1px solid #d9d9d9;border-radius:28px;margin:8px;}
 #block-views-exp-display-products-page .views-exposed-form .views-exposed-widget{padding:0;}
@@ -26,7 +27,8 @@ body .separador{height:3px;border-bottom:1px dotted #d9d9d9;border-top:1px dotte
 #block-views-shopping-cart-block .view-shopping-cart .view-empty .line-item-summary ul.links a{color:#fff;background:#f55c59;padding:2px 15px;border-radius:15px;}
 #block-views-shopping-cart-block .view-shopping-cart .view-empty .line-item-summary ul.links a:hover{background-color:#444;text-decoration:none}
 footer{padding:0;}
-footer .footer-block{background:url("../images/footer_wrapper_bg.png") center bottom no-repeat #fff}
+footer .footer-block{background:url("../images/footer_wrapper_bg.png") center bottom no-repeat #fff;}
+footer .footer-block .container{padding:54px 0;color:#999}
 footer .footer-main-block{background-color:#88c7c5}
 header .header__logo{width:250px}
 header .header__site-name{font-size:0}
