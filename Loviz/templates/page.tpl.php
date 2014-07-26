@@ -127,10 +127,18 @@
         </div>
       </div>
 
-      <?php print render($page['bottom']); ?>
     </div>
     <footer id="footer">
-      <?php print render($page['footer']); ?>
+      <div class="footer-block">
+        <div class="row">
+          <?php print render($page['footer']); ?>                  
+        </div>
+      </div>
+      <div class="footer-main-block">
+        <div class="row">
+          <?php print render($page['bottom']); ?>                  
+        </div>
+      </div>
     </footer>
   </div>
 </div>
