@@ -31,8 +31,7 @@ header .header__region .block{display:inline-block;margin:0}
 header .header-main{padding:10px 0}
 header .header-top{padding:10px;margin-bottom:1px}
 #inicio .pane-demo-content-slideshow ul{padding:0;margin:0}
-#main{padding-top:4em;}
-#main #inicio{padding:10px 0}
+#main{padding-top:10px}
 #navigation{padding:10px 0;}
 #navigation #main-menu li a{font-family:'Yanone Kaffeesatz',sans-serif;text-transform:uppercase;display:inline-block;padding:10px 10px;}
 #navigation #main-menu li a.active{background-color:#f55c59;color:#fff}
