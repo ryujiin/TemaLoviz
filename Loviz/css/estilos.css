@@ -2,30 +2,3 @@ body{background:url("../images/bg_boxed.jpg") no-repeat fixed top center;font-fa
 body img{width:100%}
 body a{text-decoration:none;color:#666}
 body .clear{clear:both}
-#block-views-exp-display-products-page{margin:20px;}
-#block-views-exp-display-products-page .views-exposed-form .views-exposed-widget input{margin:0}
-#block-views-shopping-cart-block{float:right;position:relative;margin:15px 0 15px 23px;padding:16px 15px 16px 62px;background:#f2f2f2;}
-#block-views-shopping-cart-block .block__title{font-size:1.1em;font-family:'Yanone Kaffeesatz',sans-serif}
-#block-views-shopping-cart-block .view-shopping-cart{cursor:pointer;font-size:.9em;}
-#block-views-shopping-cart-block .view-shopping-cart .icono-cart{position:absolute;left:8px;top:15px;background:#88c7c5;font-size:25px;color:#fff;padding:10px;border-radius:40px;line-height:20px}
-#block-views-shopping-cart-block .view-shopping-cart .view-empty p{color:#999;display:inline-block;margin:0}
-#block-views-shopping-cart-block .view-shopping-cart .view-empty .line-item-total-label{display:none}
-#block-views-shopping-cart-block .view-shopping-cart .view-empty .line-item-summary{display:inline-block;margin:0;}
-#block-views-shopping-cart-block .view-shopping-cart .view-empty .line-item-summary ul.links{position:absolute;left:85px;bottom:-20px;}
-#block-views-shopping-cart-block .view-shopping-cart .view-empty .line-item-summary ul.links a{color:#fff;background:#f55c59;padding:2px 15px;border-radius:15px;}
-#block-views-shopping-cart-block .view-shopping-cart .view-empty .line-item-summary ul.links a:hover{background-color:#444;text-decoration:none}
-header .header__logo{width:250px}
-header .header__site-name{font-size:0}
-header .header__region .block{display:inline-block;margin:0}
-header .header-main{padding:10px 0;border-top:1px dotted #d9d9d9}
-header .header-top{padding:10px;border-bottom:1px dotted #d9d9d9;margin-bottom:1px}
-#inicio .pane-demo-content-slideshow ul{padding:0;margin:0}
-#navigation{background:#000;padding:0;height:auto;box-shadow:0 4px 6px #808080;}
-#navigation #main-menu .links li{padding:0;}
-#navigation #main-menu .links li a{font-family:'Roboto Condensed',sans-serif;text-transform:uppercase;padding:20px 17px;display:inline-block;color:#a8a8a8;}
-#navigation #main-menu .links li a:hover{background:#f55c59;color:#fff;text-decoration:none}
-#navigation #main-menu .links li a.active{background:#f55c59;color:#fff}
-#main{padding-top:4em;}
-#main #inicio{padding:10px 0}
-#page{background:#fff}
-h1,h2,h3,h4,h5{font-family:'Roboto Condensed',sans-serif;text-transform:uppercase}
