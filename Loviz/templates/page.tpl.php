@@ -126,23 +126,10 @@
 
         </div>
       </div>
-
     </div>
-    <footer id="footer">
-      <div class="footer-block">
-        <div class="container">
-          <div class="row">
-            <?php print render($page['footer']); ?>                  
-          </div>  
-        </div>        
-      </div>
-      <div class="footer-main-block">
-        <div class="container">
-          <div class="row">
-            <?php print render($page['bottom']); ?>                  
-          </div>
-        </div>        
-      </div>
-    </footer>
+    <div id="footer-main" class="container">
+      <?php print render($page['footer']); ?>
+      <?php print render($page['bottom']); ?>  
+    </div>    
   </div>
 </div>
