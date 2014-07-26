@@ -70,8 +70,6 @@
   }
   #navigation {
     /* Move the navbar up inside #main's padding. */
-    top: 0;
-    height: 3em;
     width: 100%;
   }
 }

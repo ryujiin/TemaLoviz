@@ -1,12 +1,13 @@
-body{background:url("../images/bg_boxed.jpg") no-repeat fixed top center;font-family:arial;font-size:16px;}
+body{background:url("../images/bg_boxed.jpg") no-repeat fixed top center;font-family:arial;font-size:16px;color:#777;}
 body img{width:100%}
-body a{text-decoration:none;color:#666}
+body a{text-decoration:none;color:#666;}
+body a:hover{text-decoration:none}
 body .clear{clear:both}
 body .content-wrapper{background-color:#e0e0e0;}
 body .content-wrapper .shadow-box{width:1200px;box-shadow:0 0 18px rgba(0,0,0,0.2);background-color:#fff;margin:0 auto}
 body #page{padding:0}
 body .separador{height:3px;border-bottom:1px dotted #d9d9d9;border-top:1px dotted #d9d9d9}
-#block-views-exp-display-products-page{margin:10px;border:1px solid #d9d9d9;border-radius:28px;}
+#block-views-exp-display-products-page{border:1px solid #d9d9d9;border-radius:28px;margin:8px;}
 #block-views-exp-display-products-page .views-exposed-form .views-exposed-widget{padding:0;}
 #block-views-exp-display-products-page .views-exposed-form .views-exposed-widget input{margin:0}
 #block-views-exp-display-products-page .views-exposed-widgets{margin:2px 0 0 15px;}
@@ -15,7 +16,7 @@ body .separador{height:3px;border-bottom:1px dotted #d9d9d9;border-top:1px dotte
 #block-views-exp-display-products-page .views-exposed-widgets .form-submit{background:none;border:none;font-size:0;}
 #block-views-exp-display-products-page .views-exposed-widgets .form-submit:before{font-family:'Glyphicons Halflings';content:"\e003";font-size:15px}
 #block-views-shopping-cart-block{float:right;position:relative;margin:15px 0 15px 23px;padding:16px 15px 16px 62px;background:#f2f2f2;}
-#block-views-shopping-cart-block .block__title{font-size:1.1em;font-family:'Yanone Kaffeesatz',sans-serif}
+#block-views-shopping-cart-block .block__title{font-size:1.1em;font-family:'Yanone Kaffeesatz',sans-serif;color:#444}
 #block-views-shopping-cart-block .view-shopping-cart{cursor:pointer;font-size:.9em;}
 #block-views-shopping-cart-block .view-shopping-cart .icono-cart{position:absolute;left:8px;top:15px;background:#88c7c5;font-size:25px;color:#fff;padding:10px;border-radius:40px;line-height:20px}
 #block-views-shopping-cart-block .view-shopping-cart .view-empty p{color:#999;display:inline-block;margin:0}
@@ -32,5 +33,7 @@ header .header-top{padding:10px;margin-bottom:1px}
 #inicio .pane-demo-content-slideshow ul{padding:0;margin:0}
 #main{padding-top:4em;}
 #main #inicio{padding:10px 0}
-#navigation #main-menu li a{font-family:'Yanone Kaffeesatz',sans-serif;text-transform:uppercase}
+#navigation{padding:10px 0;}
+#navigation #main-menu li a{font-family:'Yanone Kaffeesatz',sans-serif;text-transform:uppercase;display:inline-block;padding:10px 10px;}
+#navigation #main-menu li a.active{background-color:#f55c59;color:#fff}
 h1,h2,h3,h4,h5{font-family:'Yanone Kaffeesatz',sans-serif;text-transform:uppercase}

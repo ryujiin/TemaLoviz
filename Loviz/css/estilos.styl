@@ -7,11 +7,14 @@ body
 	background url('../images/bg_boxed.jpg') no-repeat fixed top center
 	font-family arial
 	font-size 16px
+	color colortexto
 	img
 		width 100%
 	a
 		text-decoration none
 		color #666666
+		&:hover
+			text-decoration none
 	.clear
 		clear: both;
 	.content-wrapper
@@ -29,9 +32,9 @@ body
 		border-top 1px dotted #d9d9d9
 //blocke Buscador
 #block-views-exp-display-products-page
-	margin: 10px;
 	border: 1px solid #d9d9d9;
 	border-radius: 28px;
+	margin 8px
 	.views-exposed-form .views-exposed-widget
 		padding 0
 		input
@@ -60,6 +63,7 @@ body
 	.block__title
 		font-size 1.1em
 		font-family: 'Yanone Kaffeesatz', sans-serif;
+		color plomo_oscu
 	.view-shopping-cart
 		cursor pointer
 		font-size 0.9em
@@ -119,11 +123,17 @@ header
 	#inicio
 		padding 10px 0
 #navigation
+	padding 10px 0
 	#main-menu
 		li
 			a
 				font-family: 'Yanone Kaffeesatz', sans-serif;
-				text-transform uppercase;				
+				text-transform uppercase
+				display: inline-block;
+				padding: 10px 10px;
+				&.active
+					background-color rojito
+					color #fff
 //fonts
 h1,h2,h3,h4,h5
 	font-family: 'Yanone Kaffeesatz', sans-serif;
