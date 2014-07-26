@@ -6,8 +6,14 @@ body .content-wrapper{background-color:#e0e0e0;}
 body .content-wrapper .shadow-box{width:1200px;box-shadow:0 0 18px rgba(0,0,0,0.2);background-color:#fff;margin:0 auto}
 body #page{padding:0}
 body .separador{height:3px;border-bottom:1px dotted #d9d9d9;border-top:1px dotted #d9d9d9}
+#block-views-exp-display-products-page{margin:10px;border:1px solid #d9d9d9;border-radius:28px;}
 #block-views-exp-display-products-page .views-exposed-form .views-exposed-widget{padding:0;}
 #block-views-exp-display-products-page .views-exposed-form .views-exposed-widget input{margin:0}
+#block-views-exp-display-products-page .views-exposed-form{margin:0;}
+#block-views-exp-display-products-page .views-exposed-form .form-text{border:0;margin:2px 0 0 15px;}
+#block-views-exp-display-products-page .views-exposed-form .form-text:focus{outline:none}
+#block-views-exp-display-products-page .views-exposed-form .form-submit{background:none;border:none;font-size:0;}
+#block-views-exp-display-products-page .views-exposed-form .form-submit:before{font-family:'Glyphicons Halflings';content:"\e003";font-size:15px}
 #block-views-shopping-cart-block{float:right;position:relative;margin:15px 0 15px 23px;padding:16px 15px 16px 62px;background:#f2f2f2;}
 #block-views-shopping-cart-block .block__title{font-size:1.1em;font-family:'Yanone Kaffeesatz',sans-serif}
 #block-views-shopping-cart-block .view-shopping-cart{cursor:pointer;font-size:.9em;}
