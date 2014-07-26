@@ -4,6 +4,8 @@ body a{text-decoration:none;color:#666}
 body .clear{clear:both}
 body .content-wrapper{background-color:#e0e0e0;}
 body .content-wrapper .shadow-box{width:1200px;box-shadow:0 0 18px rgba(0,0,0,0.2);background-color:#fff;margin:0 auto}
+body #page{padding:0}
+body .separador{height:1px;border-bottom:1px dotted #d9d9d9;border-top:1px dotted #d9d9d9}
 #block-views-exp-display-products-page{margin:20px;}
 #block-views-exp-display-products-page .views-exposed-form .views-exposed-widget input{margin:0}
 #block-views-shopping-cart-block{float:right;position:relative;margin:15px 0 15px 23px;padding:16px 15px 16px 62px;background:#f2f2f2;}
@@ -19,8 +21,8 @@ body .content-wrapper .shadow-box{width:1200px;box-shadow:0 0 18px rgba(0,0,0,0.
 header .header__logo{width:250px}
 header .header__site-name{font-size:0}
 header .header__region .block{display:inline-block;margin:0}
-header .header-main{padding:10px 0;border-top:1px dotted #d9d9d9}
-header .header-top{padding:10px;border-bottom:1px dotted #d9d9d9;margin-bottom:1px}
+header .header-main{padding:10px 0}
+header .header-top{padding:10px;margin-bottom:1px}
 #inicio .pane-demo-content-slideshow ul{padding:0;margin:0}
 #main{padding-top:4em;}
 #main #inicio{padding:10px 0}

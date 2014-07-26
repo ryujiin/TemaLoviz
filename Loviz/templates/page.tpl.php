@@ -31,7 +31,7 @@
             <?php endif; ?>
             <div class="clear"></div>
           </div>
-          
+          <div class="separador"></div>          
           <div class="header-main">
             <div class="row">
               <div class="col-sm-4">
@@ -61,7 +61,7 @@
             </div>  
           </div>
         </header>
-
+        <div class="separador"></div>
         <div id="navigation">
             <div class="row">
               <div class="col-sm-8">
@@ -91,7 +91,7 @@
               </div>
             </div>
         </div>
-
+        <div class="separador"></div>
         <div id="main">
           <div id="content" class="column" role="main">
             <?php print render($page['highlighted']); ?>
